@@ -19,7 +19,7 @@ def get_card_list(magic_set, rarity):
             'Color': "",
             'In Cube': 0,
             'Needed': 0,
-            'Owned': 0
+            'Left': 0
         }
         for color in card["colors"]:
             card_needed["Color"] += color
